@@ -1,7 +1,8 @@
+import ex003
 
 fator_n = 1
-leitura_temperatura = 30
-leitura_ph = 7.22
+leitura_temperatura = ex003.sensorTempAgua
+leitura_ph =  ex003.pHAgua
 
 print("Temperatura: ", leitura_temperatura, " C")
 print("pH:          ", leitura_ph)
