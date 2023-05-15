@@ -1,0 +1,18 @@
+.stText{
+    color: #FFFFFF;
+    background-color: darkslategray;
+    font-size: 32px;
+}
+
+.stMarkdown{
+    color: #FFFFFF;
+    background-color: darkslategray;
+    font-size: 32px;
+}
+
+
+
+
+footer{
+    visibility: hidden;
+}
