@@ -3,19 +3,19 @@ from tkinter import *
 from serial import Serial
 from datetime import datetime
 import time
+import ex003
 
 
 
 porta = "COM3"
 velocidade = 9600
 arduino = Serial(porta, velocidade)
-tempAgua2 = "0"
-pHAgua2 = "0"
-NH3 = "0.01312"
+ex003.tempAgua = "0"
+pHAgua2 = ex003.pHAgua
+NH3 = ex003.cursor
 
 loop1 = True
 loop2 = True
-teste1 = "Tm1"
 
 # --- thread para função de leitura serial e armazenamento ---
 def tarefa2():
